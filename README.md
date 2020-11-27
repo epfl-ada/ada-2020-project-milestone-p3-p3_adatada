@@ -22,7 +22,7 @@ Does the usage of a *work-oriented* platform differ from those of more tradition
 
 -  The **“fb post”** dataset from Kaggle. This dataset lists posts on Facebook including the **date of publication, user ID**, the number of reactions and shares, and some other information. https://www.kaggle.com/baoquoc/fb-post
 
--  **“Reddit comments from Jan 1 to Jul 1, 2019”** dataset from Kaggle. This is a large Reddit dataset containing more than **7.6 million comments**. This dataset stores for each comment more than thirty different information including the **date of publication**, a lot of information about the **author**, the score, the subreddit and more. https://www.kaggle.com/adrienchaussabel/reddit-comments-from-jan-1-to-jul-1-2019
+-  **“Reddit comments from Jan 1 to Jul 1, 2019”** dataset from Kaggle. This is a large Reddit dataset containing more than **7.6 million comments**. This dataset stores for each comment more than thirty different informations including the **date of publication**, a lot of information about the **author**, the score, the subreddit and more. https://www.kaggle.com/adrienchaussabel/reddit-comments-from-jan-1-to-jul-1-2019
 
 -  “Stack Overflow Data” dataset from Kaggle. This is a **BigQuery dataset** that contains Stack Overflow content including posts, votes, tags, and badges. https://www.kaggle.com/stackoverflow/stackoverflow?select=comments
 
@@ -44,7 +44,7 @@ This step also includes the **processing of the timestamps data** (formatting di
 
 **Visualization :**
  
-Using #posts by user, we can compute the **CCDF** to get a comparable figure to the 1A.
+Using the number of posts by user, we can compute the **CCDF** to get a comparable figure to the 1A.
 
 From there we will be able to compute the cumulative % of posts by cumulative % of users (figure 1B).
 
