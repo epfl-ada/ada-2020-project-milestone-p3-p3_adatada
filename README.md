@@ -18,14 +18,15 @@ Does the usage of a *work-oriented* platform differ from those of more tradition
 
 ## 4. Proposed dataset
 
-    
+-  The **“weibo_data”** dataset from Kaggle. This dataset lists a week's worth of posts on Weibo including the **user ID and post ID**, as well as some other information. https://www.kaggle.com/sunxiaen/weibo-data?select=week1.csv
 
--  The **“fb post”** dataset from Kaggle. This dataset lists posts on Facebook including the **date of publication, user ID**, the number of reactions and shares, and some other information. https://www.kaggle.com/baoquoc/fb-post
+-  The **“microblogPCU Data Set”** dataset from the Center for Machine Learning and Intelligent Systems of the University of California, Irvine. It contains data crawled from Sina Weibo microblog including the **time for each post, user ID and post ID**, as well as some other information. https://www.kaggle.com/sunxiaen/weibo-data?select=week1.csv
 
--  **“Reddit comments from Jan 1 to Jul 1, 2019”** dataset from Kaggle. This is a large Reddit dataset containing more than **7.6 million comments**. This dataset stores for each comment more than thirty different informations including the **date of publication**, a lot of information about the **author**, the score, the subreddit and more. https://www.kaggle.com/adrienchaussabel/reddit-comments-from-jan-1-to-jul-1-2019
+-  **“French Reddit Discussion”** dataset from Kaggle. This is a Reddit dataset focused on the french-speaking Reddit community containing more than **556,621 conversations with 1,583,083 comments in total.**. This dataset notably stores for each comment the **user ID**, the **comment ID**, the subreddit and more. https://www.kaggle.com/breandan/french-reddit-discussion.
 
--  “Stack Overflow Data” dataset from Kaggle. This is a **BigQuery dataset** that contains Stack Overflow content including posts, votes, tags, and badges. https://www.kaggle.com/stackoverflow/stackoverflow?select=comments
+-  “Reddit comments Data” dataset from the Pushshift API. This is a **BigQuery dataset** that contains Reddit comments, users, and more, for each year starting in 2005. https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/
 
+-  “Stack Overflow Data” dataset from Kaggle. This also is a **BigQuery dataset** that contains Stack Overflow content including posts, votes, tags, and badges. https://www.kaggle.com/stackoverflow/stackoverflow?select=comments
   
 
 ## 5. Methods
@@ -34,7 +35,7 @@ Does the usage of a *work-oriented* platform differ from those of more tradition
 
 **Data collection :** 
 
-Datasets from Facebook, Stackoverflow and reddit posts are sourced from kaggle. The Facebook and Reddit datasets are accessible from .csv files while the BigQuery API will allow us to access the Stackoverflow data.
+Datasets from Weibo, Stackoverflow and Reddit posts are sourced from kaggle. The Weibo dataset is accessible from a .csv file while the BigQuery API will allow us to access the Stackoverflow and Reddit user data. Finally, the french corpus of Reddit comments is accessible as a .xml file from kaggle and converted to .csv using a provided python script.
 
 **Pre-processing :**
  
