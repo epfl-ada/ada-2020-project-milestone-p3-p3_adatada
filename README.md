@@ -41,7 +41,12 @@ Datasets from Weibo, Stackoverflow and Reddit posts are sourced from kaggle. The
  
 **Sanity checks** and cleansing the datasets, then pre-processing by **randomly sampling the users** (rather than random sampling from posts in order to try to follow the sampling strategy of the original paper, if the dataset is large enough) then group posts by users.
 
-This step also includes the **processing of the timestamps data** (formatting differs between datasets). The aim is to have datasets (one per social network) with the same structure in order to use the same methods for the computation and replication of the figures.
+This step also includes the **processing of the timestamps data** (formatting differs between datasets). 
+
+As stated in the **Proposed dataset** section, different datasets will be used to obtain the replicated figures for Reddit and Weibo. On Reddit, the user's country is not available on its profile, which makes adjusting the timezones to take into account the user's location impossible. To address this, we will be using only the comments from the "/r/France" subreddit (from the “French Reddit Discussion”), and assuming that those who comment on it in french are located in France. Furthermore, the “weibo_data” dataset only contains one week of posts, which is not enough to have a representative view of the weekly usage patterns. To replicate figure 
+2 for Weibo, we will be using the “microblogPCU Data Set”, that contains data spread across a longer period.
+
+Since the milestone p4 also includes the replication of the Figure 2 of the 'Testing Propositions' paper as an individual task, we will be using 3 different methods (one per social network, and per member of the group) to generate our visualizations of the usage rhythms. Nevertheless, we will use the same method for all platforms for the replication of the figure 1A.
 
 **Visualization :**
  
