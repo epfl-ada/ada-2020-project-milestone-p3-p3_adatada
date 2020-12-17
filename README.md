@@ -18,13 +18,13 @@ Does the usage of a *work-oriented* platform differ from those of more tradition
 
 ## 4. Proposed dataset
 
--  The **“weibo_data”** dataset from Kaggle. This dataset lists a week's worth of posts on Weibo including the **user ID and post ID**, as well as some other information. https://www.kaggle.com/sunxiaen/weibo-data?select=week1.csv
+-  The **“weibo_data”** dataset from Kaggle. This dataset lists a week's worth of posts on Weibo including the **user ID and post ID**, as well as some other information. This dataset will be used to get a figure of the CCDF of the number of posts by user. https://www.kaggle.com/sunxiaen/weibo-data?select=week1.csv 
 
--  The **“microblogPCU Data Set”** dataset from the Center for Machine Learning and Intelligent Systems of the University of California, Irvine. It contains data crawled from Sina Weibo microblog including the **time for each post, user ID and post ID**, as well as some other information. https://www.kaggle.com/sunxiaen/weibo-data?select=week1.csv
+-  The **“microblogPCU Data Set”** dataset from the Center for Machine Learning and Intelligent Systems of the University of California, Irvine. It contains data crawled from Sina Weibo microblog including the **time for each post, user ID and post ID**, as well as some other information. This dataset will be used to observe usage patterns of the platform. https://archive.ics.uci.edu/ml/datasets/microblogPCU# 
 
--  **“French Reddit Discussion”** dataset from Kaggle. This is a Reddit dataset focused on the french-speaking Reddit community containing more than **556,621 conversations with 1,583,083 comments in total.**. This dataset notably stores for each comment the **user ID**, the **comment ID**, the subreddit and more. https://www.kaggle.com/breandan/french-reddit-discussion.
+-  **“French Reddit Discussion”** dataset from Kaggle. This is a Reddit dataset focused on the french-speaking Reddit community containing more than **556,621 conversations with 1,583,083 comments in total.**. This dataset notably stores for each comment the **user ID**, the **comment ID**, the subreddit and more. This dataset will be used to observe usage patterns of the platform. https://www.kaggle.com/breandan/french-reddit-discussion 
 
--  “Reddit comments Data” dataset from the Pushshift API. This is a **BigQuery dataset** that contains Reddit comments, users, and more, for each year starting in 2005. https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/
+-  “Reddit comments Data” dataset from the Pushshift API. This is a **BigQuery dataset** that contains Reddit comments, users, and more, for each year starting in 2005. This dataset will be used to get a figure of the CCDF of the number of posts by user on Reddit. https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/ 
 
 -  “Stack Overflow Data” dataset from Kaggle. This also is a **BigQuery dataset** that contains Stack Overflow content including posts, votes, tags, and badges. https://www.kaggle.com/stackoverflow/stackoverflow?select=comments
   
@@ -39,7 +39,7 @@ Datasets from Weibo, Stackoverflow and Reddit posts are sourced from kaggle. The
 
 **Pre-processing :**
  
-**Sanity checks** and cleansing the datasets, then pre-processing by **randomly sampling the users** (rather than random sampling from posts in order to try to follow the sampling strategy of the original paper) then group posts by users.
+**Sanity checks** and cleansing the datasets, then pre-processing by **randomly sampling the users** (rather than random sampling from posts in order to try to follow the sampling strategy of the original paper, if the dataset is large enough) then group posts by users.
 
 This step also includes the **processing of the timestamps data** (formatting differs between datasets). The aim is to have datasets (one per social network) with the same structure in order to use the same methods for the computation and replication of the figures.
 
