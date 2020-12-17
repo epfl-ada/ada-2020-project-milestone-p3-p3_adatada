@@ -6,7 +6,7 @@ Evaluation of the difference in usage across major social platforms
 
 ## 2.  Abstract
 
-In the paper we are working on, a study is made on several aspects of the twitter platform: **Usage**, Information diffusion, structure of networks. For our extension we chose to focus on the question of usage, and to see if what we have been able to find in terms of results on twitter is similar to what can be seen on other social networks. To do this we will replicate figures 1A and 2 of our paper with data from other platforms. Our goal will be to see if our use of **social networks follows the same pattern regardless of the platform and to what extent**. To compare with the Twitter results, we will use data from **StackOverFlow, Weibo and Reddit**. These social networks which are very different from each other, either in their content or the codes of their user community will allow us to answer our question.
+In the paper we are working on, a study is made on several aspects of the twitter platform: **Usage**, Information diffusion, structure of networks. For our extension we chose to focus on the question of usage, and to see if what we have been able to find in terms of results on twitter is similar to what can be seen on other social networks. To do this we will replicate figures 1A and 2 of our paper with data from other platforms. Our goal will be to see if our use of **social networks follows the same pattern regardless of the platform and to what extent**. To compare with the Twitter results, we will use data from **Stack Overflow, Weibo and Reddit**. These social networks which are very different from each other, either in their content or the codes of their user community will allow us to answer our question.
 
 ## 3. Research Questions
 
@@ -14,7 +14,7 @@ Do some of the *Twitter* usage patterns transpose to other social networks?
 
 Does the nature of the platform and its mechanisms lead to different usage patterns ?
 
-What is the percentage of questions that get answered in less than an hour on StackOverflow at a given time of day and for each day of the week ?
+What is the percentage of questions that get answered in less than an hour on Stack Overflow at a given time of day and for each day of the week ?
 
 
 ## 4. Proposed dataset
@@ -36,7 +36,7 @@ What is the percentage of questions that get answered in less than an hour on St
 
 **Data collection :** 
 
-Datasets from Weibo, Stackoverflow and Reddit posts are sourced from kaggle. The Weibo dataset is accessible from a .csv file while the BigQuery API will allow us to access the Stackoverflow and Reddit user data. Finally, the french corpus of Reddit comments is accessible as a .xml file from kaggle and converted to .csv using a provided python script.
+Datasets from Weibo, Stack Overflow and Reddit posts are sourced from kaggle. The Weibo dataset is accessible from a .csv file while the BigQuery API will allow us to access the Stack Overflow and Reddit user data. Finally, the french corpus of Reddit comments is accessible as a .xml file from kaggle and converted to .csv using a provided python script.
 
 **Pre-processing :**
  
