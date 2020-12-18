@@ -73,13 +73,12 @@ The timestamps will allow us to evaluate the number of posts at a given time in 
 
 ## 7. Organization within the team
 
-    
 
-In week 1, each team member will perform the aforementioned pre-processing steps on one of the 3 new datasets. Kamyar will then check that the formatting is in line with our original expectations and consistent across the datasets and perform the random sampling of the users. In the meantime, Yassine and Charles David will continue to look for datasets from other platforms to possibly add to the study.
+In week 1, each team member performed the aforementioned pre-processing steps on one of the 3 datasets. Charles David worked on Reddit dataset, Yassine on Stack Overflow and finally Kamyar worked on the Weibo dataset. Everyone also looked for additional datasets from other platforms to possibly add to the study.
 
-In the beginning of week 2, Charles David will replicate the figure 1A for all the platforms studied, while Kamyar and Yassine will focus on the usage patterns (figures 2A and 2B). Whoever finishes first will do the replication of 1B while the others start brainstorming about the media used for the presentation of the results. By the end of week 2, all the computation and plots should be done.
+In week 2, everyone has replicated the figures 1a, 2a and 2b of the social network that was assigned to him. All the computation and the main plots were done and the notebooks were also partly commented and cleaned. 
 
-To start week 3, Kamyar will work on the media to present the results, while Charles David and Yassine refine the data story. Once the data story is complete, the whole team will focus on finalizing the presentation.
+In week 3, everyone wrote a part of the datastory and created the plots and data needed to produce them: Yassine worked on the introduction, the extra "When to ask a question on Stack Overflow?" and the conclusion, Kamyar worked on the "Are you power users" part and Charles David worked on "User Behaviour" part. Then, Yassine mainly worked on the datastory and the layout of the website, while Charles David merged and cleaned all the notebooks. Kamyar helped Charles David with the notebooks.
 
 ## 8. Questions for TAs
 
