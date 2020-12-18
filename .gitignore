@@ -45,3 +45,8 @@ ccdf.png
 .ipynb_checkpoints/StackOverflowfig2-checkpoint.ipynb
 .ipynb_checkpoints/Reddit_replication-checkpoint.ipynb
 .ipynb_checkpoints/creative_extension-checkpoint.ipynb
+.ipynb_checkpoints/Weibo-checkpoint.ipynb
+data/user_post.csv
+data/userdata.csv
+data/week1.csv
+data/weibo_power_law.csv
