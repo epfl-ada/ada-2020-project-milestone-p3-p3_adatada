@@ -74,7 +74,7 @@ The timestamps will allow us to evaluate the number of posts at a given time in 
 ## 7. Organization within the team
 
 
-In week 1, each team member performed the aforementioned pre-processing steps on one of the 3 datasets. Charles David worked on Reddit dataset, Yassine on Stack Overflow and finally Kamyar worked on the Weibo dataset. Everyone also looked for additionial datasets from other platforms to possibly add to the study.
+In week 1, each team member performed the aforementioned pre-processing steps on one of the 3 datasets. Charles David worked on Reddit dataset, Yassine on Stack Overflow and finally Kamyar worked on the Weibo dataset. Everyone also looked for additional datasets from other platforms to possibly add to the study.
 
 In week 2, everyone has replicated the figures 1a, 2a and 2b of the social network that was assigned to him. All the computation and the main plots were done and the notebooks were also partly commented and cleaned. 
 
