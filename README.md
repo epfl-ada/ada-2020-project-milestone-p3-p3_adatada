@@ -79,8 +79,3 @@ In week 1, each team member performed the aforementioned pre-processing steps on
 In week 2, everyone has replicated the figures 1a, 2a and 2b of the social network that was assigned to him. All the computation and the main plots were done and the notebooks were also partly commented and cleaned. 
 
 In week 3, everyone wrote a part of the datastory and created the plots and data needed to produce them: Yassine worked on the introduction, the extra "When to ask a question on Stack Overflow?" and the conclusion, Kamyar worked on the "Are you power users" part and Charles David worked on "User Behaviour" part. Then, Yassine mainly worked on the datastory and the layout of the website, while Charles David merged and cleaned all the notebooks. Kamyar helped Charles David with the notebooks.
-
-## 8. Questions for TAs
-
-    
-Do you have any tips for searching for datasets? Are there any platforms for retrieving public datasets ?
